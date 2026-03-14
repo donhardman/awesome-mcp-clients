@@ -77,6 +77,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Nerve](#nerve)
     - [NextChat](#nextchat)
     - [oterm](#oterm)
+    - [Octomind](#octomind)
     - [Slack MCP Client](#slack-mcp-client)
     - [Runbear](#runbear)
     - [Superinterface](#superinterface)
@@ -1331,6 +1332,34 @@ A terminal client for Ollama, with support for MCP servers.
 
 ![](./screenshots/oterm/chat.png)
 ![](./screenshots/oterm/mcp.svg)
+
+</details>
+
+### Octomind
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/muvon/octomind</td></tr>
+<tr><th align="left">Website</th><td>https://muvon.io</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Rust</td></tr>
+</table>
+
+**Octomind** is a session-based AI development assistant with extensible architecture, smart codebase understanding via semantic search and knowledge graphs, and zero AI provider lock-in. It supports 7 LLM providers (OpenRouter, OpenAI, Anthropic, Google, Amazon, Cloudflare, DeepSeek) with instant switching, plan-first multi-step execution, and runs as interactive CLI, WebSocket server, or JSONL pipeline.
+
+**Key Features:**
+- ⚙️ **Fully Extensible** — Configure any agent as MCP tool via config, custom commands with prompt templates
+- 🧠 **Smart Context + Plan-First** — Semantic code search (Octocode), persistent memory (Octobrain), multi-step planning with validation gates
+- 🌐 **Provider Freedom** — 7 providers with instant switching via `/model`, real-time cost tracking
+- 🔧 **Built-in Tools** — Shell execution, file editing, AST-based code search (ast_grep), web search & extraction
+- 📊 **Multiple Run Modes** — Interactive session, WebSocket server for IDE plugins, JSONL for CI/CD pipelines
+
+<details>
+<summary>Screenshots</summary>
+
+![Session Demo](https://asciinema.org/a/wpZmOSOgFXp8HRzTltncgN7e3.svg)
 
 </details>
 
